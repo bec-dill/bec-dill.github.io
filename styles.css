@@ -1,0 +1,37 @@
+p {
+    color: tomato;
+    text-align: center;
+
+}
+
+body {
+    font-size: 14px;
+    color: violet;
+}
+
+h1 {
+    color: yellow;
+    background-color: tomato;
+    margin: 20px;
+    padding: 40px;
+    border-style: double;
+    border-width: 33px;
+    border-color: yellowgreen;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#dogs {
+    border-style: dotted;
+}
