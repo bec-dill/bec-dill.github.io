@@ -10,13 +10,13 @@ body {
 }
 
 h1 {
-    color: yellow;
-    background-color: tomato;
+    color: ff7e42;
+    background-color: 34d0c9;
     margin: 20px;
     padding: 40px;
     border-style: double;
     border-width: 33px;
-    border-color: yellowgreen;
+    border-color: ff7e42;
 }
 
 html {
@@ -34,4 +34,9 @@ h3 {
 
 #dogs {
     border-style: dotted;
+}
+
+#selfie {
+    size: 5cm;
+
 }
