@@ -1,27 +1,30 @@
 p {
-    color: tomato;
-    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5%;
+    padding-right: 10%;
 
 }
 
 body {
     font-size: 14px;
-    color: violet;
+    color: black;
 }
 
 h1 {
-    color: ff7e42;
-    background-color: 34d0c9;
+    color: #34d0c9;
+    background-color: #ff7e42;
     margin: 20px;
     padding: 40px;
-    border-style: double;
-    border-width: 33px;
-    border-color: ff7e42;
+    text-align: center;
+
 }
 
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+    padding: 5%;
 }
 
 h2 {
@@ -32,11 +35,22 @@ h3 {
     text-transform: uppercase;
 }
 
-#dogs {
-    border-style: dotted;
+
+img {
+    max-width: 15cm;
+    max-height: 10cm;
+    border-radius: 75%;
+    
+ 
 }
 
-#selfie {
-    size: 5cm;
+nav {
+    color: #34d0c9;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+
 
 }
