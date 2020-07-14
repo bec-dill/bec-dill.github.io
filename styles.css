@@ -54,3 +54,12 @@ nav {
 
 
 }
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+   }
+
+p {
+       align-content: center;
+   }
