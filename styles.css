@@ -9,7 +9,7 @@ p {
 
 body {
     font-size: 14px;
-    color: black;
+    
 }
 
 h1 {
@@ -25,6 +25,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     padding: 5%;
+
 }
 
 h2 {
@@ -36,23 +37,20 @@ h3 {
 }
 
 
-img {
-    max-width: 15cm;
-    max-height: 10cm;
-    border-radius: 75%;
-    
- 
-}
-
 nav {
     color: #34d0c9;
+    font-size: small;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
-
-
+    width: 10cm;
+    height: 10cm;
+    padding: 5px;
+    flex-direction: column;
+    padding-right: 10cm;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container2 {
@@ -63,3 +61,36 @@ nav {
 p {
        align-content: center;
    }
+
+.projects {
+    padding-left: 2cm;
+}
+
+.selfie {
+    max-width: 15cm;
+    max-height: 10cm;
+    border-radius: 75%;
+}
+
+.p1 {
+    max-width: 15cm;
+    max-height: 10cm;
+    border-radius: 75%;
+    
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 10cm;
+    padding-right: 10cm;
+}
+
+#contactme {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: medium;
+}
