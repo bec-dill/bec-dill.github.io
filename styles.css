@@ -1,3 +1,5 @@
+@media (min-width: 600px) {
+
 p {
     color: black;
     display: flex;
@@ -44,11 +46,9 @@ nav {
 
 .flex-container {
     display: flex;
-    width: 10cm;
-    height: 10cm;
-    padding: 5px;
+    
     flex-direction: column;
-    padding-right: 10cm;
+    padding-right: ;
     justify-content: center;
     align-items: center;
 }
@@ -93,4 +93,10 @@ p {
     justify-content: center;
     align-content: center;
     font-size: medium;
+}
+
+}
+
+body {
+    justify-content: center;
 }
