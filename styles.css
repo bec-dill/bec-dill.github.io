@@ -1,5 +1,3 @@
-@media (min-width: 600px) {
-
 p {
     color: black;
     display: flex;
@@ -95,8 +93,3 @@ p {
     font-size: medium;
 }
 
-}
-
-body {
-    justify-content: center;
-}
